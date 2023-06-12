@@ -56,14 +56,14 @@ body
 
 .intro
 {
-    height: 100px;
-    width: 439px;
+    height: 80px;
+    width: 350px;
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
     background-color: rgb(27, 27, 27, 0.5);
     color: white;
-    bottom: -501px;
+    bottom: -522px;
     transition: 1.4s;
 }
 
@@ -102,7 +102,7 @@ body
 }
 
 .card:hover .intro{
-    height: 200px;
+    height: 130px;
     bottom: -501;
     background-color: rgb(157, 109, 202);
     opacity: 70%;
@@ -118,4 +118,12 @@ body
 .card:hover .card-pic{
     transform: scale(1.1);
 
+}
+
+@media screen and (375px) {
+    .pagina-inicial
+{
+    width: 100px;
+
+}
 }
