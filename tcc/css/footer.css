@@ -1,0 +1,28 @@
+.rodape
+{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    height: 11rem;
+    background-color: rgb(252, 251, 251);
+}
+
+.imagem-footer
+{   
+    margin-left: 50px;
+    margin-right: 700px;
+}
+
+.infos-rodape
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-link
+{
+    margin-left: 100px;
+    text-decoration: none;
+    list-style: none;
+}
